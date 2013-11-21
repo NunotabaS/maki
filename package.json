@@ -1,0 +1,13 @@
+{
+	"name": "Maki",
+	"description": "Maki Weibo Robot",
+	"version": "0.1.0",
+	"scripts": {
+		"start": "node_maki.js"
+	},
+	"dependencies": {
+		"weibo": "*",
+		"segment": "*",
+		"mongodb": "*"
+	}
+}
