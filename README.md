@@ -9,7 +9,14 @@ into a large Hidden Markov Model (HMM).
 必要ソフト：
 - Mongo DB （データベース用）
 
-Before deploy, please fill out `config.sample.js` and rename to `config.js`
+
+Before deploy, please fill out `config.sample.js` and rename to `config.js`. 
+Then run 
+
+    npm install
+
+and run the collector with `node maki.js`. When you're satisfied, run 
+`node makigen.js` to generate some very deep thoughts about life in China.
 
 
 LICENSE
